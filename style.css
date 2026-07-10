@@ -107,16 +107,8 @@
     margin-left:40%;
     color:#fff;
 }
-
-.hero-title{
-    font-size:5rem;
-    font-weight:700;
-    letter-spacing:-2px;
-    margin-bottom:25px;
-}
-
-.hero-title span{
-    font-style:italic;
+.hero-content span{
+    font-style: italic;
 }
 
 .hero-description{
@@ -239,4 +231,155 @@
 
 
 
-  
+   /* Pricing Card Part */
+
+
+
+.secure p{
+    color: #6b7280;
+    font-size: 15px;
+
+}
+
+.pricing-card {
+    width: 370px;
+    padding: 32px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pricing-card.featured {
+    background: #0f172a;
+    color: #fff;
+}
+
+.pricing-card hr {
+    border: none;
+    height: 1px;
+    background: #e5e7eb;
+}
+
+.pricing-card.featured hr {
+    background: rgba(255,255,255,.15);
+}
+
+
+
+  /* Card-Header */
+
+
+.plan-name {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.pricing-card.featured .plan-name {
+    color: #93c5fd;
+}
+
+.price {
+    font-size: 44px;
+    font-weight: 700;
+    color: #0d1b2a;
+    margin-top: 8px;
+}
+
+.pricing-card.featured .price {
+    color: #fff;
+}
+
+.price span {
+    font-size: 13px;
+    color: #888;
+    font-weight: 400;
+}
+
+.pricing-card.featured .price span {
+    color: rgba(255,255,255,.7);
+}
+
+
+   /* Card-Feature List */
+
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #333;
+}
+
+.pricing-card.featured .feature-list li {
+    color: rgba(255,255,255,.8);
+}
+
+.feature-list li::before {
+    content: "•";
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+}
+
+
+/* Card-Button*/
+
+.card-btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #2563eb;
+    background: transparent;
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card-btn:hover {
+    background: #2563eb;
+    color: #fff;
+}
+
+.pricing-card.featured .btn {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+}
+
+.pricing-card.featured .btn:hover {
+    background: #1d4ed8;
+}
+
+
+
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.secure{
+    text-align: center;
+}
