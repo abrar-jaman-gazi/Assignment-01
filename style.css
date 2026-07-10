@@ -646,3 +646,49 @@ body {
 
 }
 
+/* footer css */
+/* ===========================
+   Footer Bottom
+=========================== */
+
+.footer-bottom {
+    background-color: #0D1B2A;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding: 25px 0;
+}
+
+.footer-bottom-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    color: #9CA3AF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Footer Links */
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: #D1D5DB;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #60A5FA;
+}
