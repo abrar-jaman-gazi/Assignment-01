@@ -1,5 +1,5 @@
 /* Navbar */
-@media (max-width: 768px){
+
 .navbar {
     width: 100%;
     background: #ffffff;
@@ -133,7 +133,7 @@
 .hero-btn:hover{
     background:#1d4ed8;
 }
-}
+
 
 /* Speaker css */
 .speakers {
