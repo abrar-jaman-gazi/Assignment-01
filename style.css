@@ -625,7 +625,7 @@ body {
 
 }
 
-@media(max-width:768px){
+@media(max-width:1200px){
 
     .feature-grid{
 
@@ -654,9 +654,7 @@ body {
 }
 
 /* footer css */
-/* ===========================
-   Footer Bottom
-=========================== */
+
 
 .footer-bottom {
     background-color: #0D1B2A;
