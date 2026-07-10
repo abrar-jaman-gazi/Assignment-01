@@ -73,10 +73,10 @@
     color: white;
     padding: 12px 28px;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 600px;
     transition: 0.3s;
 }
-
+ 
 .btn:hover {
     background: #1d4ed8;
 }
@@ -236,3 +236,7 @@
         font-size: 2rem;
     }
 }
+
+
+
+  
