@@ -56,7 +56,7 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #111;
+    color: #575757;
     font-size: 16px;
     font-weight: 500;
     transition: 0.3s;
@@ -252,6 +252,13 @@
     gap: 20px;
 }
 
+.pricing-card p{
+    .speaker-content p {
+    color: #6b7280;
+    font-size: 15px;
+}
+}
+
 .pricing-card.featured {
     background: #0f172a;
     color: #fff;
@@ -285,7 +292,7 @@
 }
 
 .price {
-    font-size: 44px;
+    font-size: 10px;
     font-weight: 700;
     color: #0d1b2a;
     margin-top: 8px;
@@ -295,7 +302,7 @@
     color: #fff;
 }
 
-.price span {
+.pricing-card.featured .plan-name{
     font-size: 13px;
     color: #888;
     font-weight: 400;
